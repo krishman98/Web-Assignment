@@ -1,0 +1,318 @@
+/*//these are the fonts used*/
+@import url('https://fonts.googleapis.com/css?family=Quattrocento');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Volkhov');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+/*this is universal code for alligning*/
+*{
+	padding: 0;
+	margin: 0;
+}
+/*this designs the body layout*/
+body{
+	margin:0;
+	padding:0;
+	background-size: cover;
+	background-image:url('img/background.jpg');
+	background-repeat: no-repeat;
+}
+/*determines header position*/
+.header{
+	min-height: 100%
+	position:relative;
+}
+/*layout of the div created in index*/
+.box{
+	width: 300px;
+	height: 390px;
+	background: rgba(12,46,76,0.5);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color:#ff4400;
+	border-radius: 5%
+}
+/*giving appropriate size to box image*/
+.box-img{
+	border-radius: 65%;
+	width: 150px;
+	height: 150px;		
+}
+/*layout of titel in index page*/
+h1{
+	font-size: 30px;
+	letter-spacing: 4px;
+	font-weight: bolder;
+    font-family: 'Quattrocento', serif;
+    text-align: center;
+}
+/*layout of title in index page*/
+h5{
+	font-size: 25px;
+	letter-spacing:2px;
+	font-weight: bolder;
+	font-family: 'Amatic SC', cursive;
+    text-align: center;
+	}
+	/*layout of paragraph in index page */
+p{
+font-size: 15px;	
+font-family: 'Quattrocento', serif;
+text-align: center;
+font-weight: bold;
+}
+/*layout of navigation bar*/
+nav {
+	background: rgba(12,46,76,0.5);
+	font-family:  'Amatic SC', cursive;
+	border-radius: 10%
+    	
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	text-align:center;
+	display: flex;
+     
+}
+nav li{
+	flex: 1;
+
+}
+/*layout ofindex in navigation bar*/
+nav a{
+	text-decoration: none;
+	//text-align: center;
+	color: #ff4400;
+	display: block;
+	padding: 18px;
+	letter-spacing: 5px;
+	font-weight: 100;
+    font-size: 30px;
+}
+/*layout of hover in navigation bar*/
+nav a:hover{
+	background-color: rgba(20,50,80,5);
+
+}
+/*layout of footer*/
+ .footer {
+ 	background: rgba(12,46,76,0.5);
+ 	text-align: center;
+ 	font-family:'Amatic SC', cursive;
+    color: #ff4400;
+    border-radius: 15%
+    height: 50px;
+    font-size: 17px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+ }
+
+ /*layout of box in about page*/
+.box-about{
+	background: rgba(12,46,76,0.8);
+	list-style-type: none;
+    width: 65%;
+    margin: 1px auto;
+    border-radius: 5%;
+    
+}
+/*layout of image inside box of index page*/
+.box-img-about{
+	border-radius:5%;
+	width: 30%;
+	height: 300px;
+	margin: 1px auto;
+	display: block;
+	
+}
+/*layout of paragraph in about page*/
+.about{
+	margin: 1px auto;
+	font-size: 20px;
+	color: #ff4400;
+	font-family:  'Amatic SC', cursive;
+	letter-spacing: 1px;
+}
+/*layout of divider in contact page*/
+.contact-title{
+	margin: auto;
+	text-align: center;
+	color: #ff4400;
+	font-family:  'Amatic SC', cursive;
+    background: rgba(12,46,76,0.5);
+    font-weight: bolder;
+    font-size: 25px;
+}
+/*layout of form */
+form{
+	background: transparent;
+	border-radius: 5%;
+	color: #ff4400;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bolder;
+	font-size: 22px;
+}
+/*layout of details divider in contact page*/
+.details{
+	 background: rgba(12,46,76,0.5);
+	 border-radius: 5%;
+	 width: 75%
+	 text-align: center;
+	 display: block;
+}
+/*layout of paragraph in contact page*/
+.mycontact{
+	color: #ff4400;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bolder;
+	font-size: 22px;
+
+}
+/*layout of divider in cv page*/
+
+.cv{
+	background: rgba(12,46,76,0.9);
+	border-radius: 5%;
+	text-align: center;
+	width: 60%;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	color:  #ff4400;
+	font-weight: bolder;
+	margin: 1px auto;
+	letter-spacing: 1px;
+}
+/*layout of soc divider in social page*/
+  .soc p{
+	background: rgba(12,46,76,0.5);
+	font-weight: bolder;
+    font-size: 35px;
+    color: #ff4400;
+    width: 50%;
+    height: 75px;
+    margin: 1px auto;
+    font-family:  'Amatic SC', cursive;
+    border-radius: 10%;
+}
+/*layout of divider in social page*/
+.socl-ic{
+background: rgba(12,46,76,0.5);
+width: 50%;
+height: 50%	
+border-radius: 10%;
+margin: 1px auto;
+}
+/*layout of ul in social page*/
+ .soc-ic{
+	text-align:center;
+	list-style-type: none;
+	margin: 1px auto;
+}
+/*divider 1 of models gp page*/
+.d1{
+	background: rgba(12,46,76,0.8);
+	width: 70%;
+	margin: 1px auto;
+}
+/*layout of table of contents*/
+.toc{
+	font-weight: bolder;
+    font-size: 35px;
+    color: #ff4400;
+    font-family:  'Amatic SC', cursive;
+    text-align:center;
+}
+/*layot of ul in table of contents*/
+.cont li{
+	font-weight: bolder;
+    font-size: 30px;
+    color: #ff4400;
+    font-family:  'Amatic SC', cursive;
+    list-style-type: none
+    margin:1px auto;
+    text-align: center;
+
+}
+/*layout of divider 2 */
+.d2{
+    background: rgba(12,46,76,0.8);
+	width: 70%;
+	margin: 1px auto;
+}
+/*divider 2 layout paragraph*/
+.d2 p{
+	font-weight: bolder;
+    font-size: 15px;
+    color: #ff4400;
+    font-family:  'Quattrocento', serif;
+    
+}
+/*layout of divider 3*/
+.d3{
+	background: rgba(12,46,76,0.8);
+	width: 70%;
+	margin: 1px auto;
+}
+/*layout of li in divider 3*/
+.d3 li{
+    list-style-type: none
+    margin:1px auto;
+    text-align: center;
+
+}
+/*size of image in modelsgp page*/
+img{
+	width: 700px;
+	height: 700px;
+}
+/*layout of divider 4*/
+.d4{
+	background: rgba(12,46,76,0.8);
+	width: 70%;
+	margin: 1px auto;
+}
+/*layout of li divider 4*/
+.d4 li{
+    list-style-type: none
+    margin:1px auto;
+    text-align: center;
+
+}
+/*layou divider 5*/
+.d5{
+	background: rgba(12,46,76,0.8);
+	width: 70%;
+	margin: 1px auto;
+
+}
+/*layout divider 6*/
+.d6{
+	background: rgba(12,46,76,0.8);
+	width: 70%;
+	margin: 1px auto;
+
+}
+/*paragraph layout divider 6*/
+.d6 p{
+	font-weight: bolder;
+    font-size: 15px;
+    color: #ff4400;
+    font-family:  'Quattrocento', serif;
+    
+}
+/*layout divider 7*/
+.d7{
+	background: rgba(12,46,76,0.8);
+	width: 70%;
+	margin: 1px auto;
+
+}
+/*li laout divider 7*/
+.d7 li{
+    list-style-type: none
+    margin:1px auto;
+    text-align: center;
